@@ -1,1 +1,14 @@
 ujkripto/target/
+ujkripto/.idea
+ujkripto/.classpath
+ujkripto/.project
+ujkripto/.settings/
+ujkripto/bin/
+
+target/
+.idea
+.classpath
+.project
+.settings/
+bin/
+
