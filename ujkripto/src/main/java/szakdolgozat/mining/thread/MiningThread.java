@@ -5,7 +5,7 @@ import szakdolgozat.checker.Checker;
 import szakdolgozat.guesser.Guesser;
 import szakdolgozat.ujkripto.server.UjkriptoServer;
 
-public class MiningThread extends Thread {
+public class MiningThread extends Thread implements MiningThreadInterface{
 
     private boolean mining = false;
     private String solver;
