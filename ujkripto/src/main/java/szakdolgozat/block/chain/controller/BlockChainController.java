@@ -9,9 +9,8 @@ import szakdolgozat.key.NamedKeyPair;
 import szakdolgozat.transaction.Transaction;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class BlockChainController {
+public class BlockChainController implements BlockChainControllerInterface{
 
     private static final BlockChainController instance = new BlockChainController();
     private BlockChainReaderWriter blockChainReaderWriter = new BlockChainReaderWriter();

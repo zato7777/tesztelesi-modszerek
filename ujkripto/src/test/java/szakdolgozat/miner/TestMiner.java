@@ -2,6 +2,7 @@ package szakdolgozat.miner;
 
 import org.junit.jupiter.api.Test;
 import szakdolgozat.block.chain.controller.BlockChainController;
+import szakdolgozat.block.chain.controller.BlockChainControllerInterface;
 import szakdolgozat.mining.thread.MiningThreadFactoryInterface;
 import szakdolgozat.mining.thread.MiningThreadInterface;
 
@@ -62,7 +63,7 @@ public class TestMiner {
 
     }
 
-    public void setBlockChainController(BlockChainController blockChainController) {
+    public void setBlockChainController(BlockChainControllerInterface blockChainController) {
 
     }
 

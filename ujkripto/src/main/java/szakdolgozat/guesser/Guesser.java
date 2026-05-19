@@ -2,7 +2,7 @@ package szakdolgozat.guesser;
 
 import java.util.Random;
 
-public class Guesser {
+public class Guesser implements GuesserInterface{
 
     private Random random = new Random();
 

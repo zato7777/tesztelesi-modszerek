@@ -6,7 +6,7 @@ import szakdolgozat.block.chain.BlockChain;
 import szakdolgozat.receiver.thread.ReceiverThread;
 import szakdolgozat.sender.Sender;
 
-public class UjkriptoServer {
+public class UjkriptoServer implements UjkriptoServerInterface{
     public static final String BLOCK_CHAIN_END_TOKEN = "BLOKK_LANC_VEGE_TOKEN";
 
     private static final UjkriptoServer instance = new UjkriptoServer();

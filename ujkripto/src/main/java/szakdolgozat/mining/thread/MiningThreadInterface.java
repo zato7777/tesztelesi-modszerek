@@ -1,6 +1,6 @@
 package szakdolgozat.mining.thread;
 
-import szakdolgozat.block.chain.controller.BlockChainController;
+import szakdolgozat.block.chain.controller.BlockChainControllerInterface;
 
 public interface MiningThreadInterface {
   public boolean isMining();
@@ -9,7 +9,7 @@ public interface MiningThreadInterface {
 
   public void setSolver(final String solver);
 
-  public void setBlockChainController(final BlockChainController blockChainController);
+  public void setBlockChainController(final BlockChainControllerInterface blockChainController);
 
   public void start();
 }
