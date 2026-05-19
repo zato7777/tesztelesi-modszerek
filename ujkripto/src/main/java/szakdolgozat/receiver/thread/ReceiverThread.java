@@ -21,7 +21,7 @@ import java.util.stream.IntStream;
 import static szakdolgozat.ujkripto.server.UjkriptoServer.BLOCK_CHAIN_END_TOKEN;
 import static szakdolgozat.ujkripto.server.UjkriptoServer.logger;
 
-public class ReceiverThread extends Thread {
+public class ReceiverThread extends Thread implements ReceiverThreadInterface{
     private boolean receive = false;
     private DatagramSocket socket;
     private BlockChainValidator blockChainValidator = new BlockChainValidator();

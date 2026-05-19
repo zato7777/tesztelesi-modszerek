@@ -14,7 +14,7 @@ import java.util.Base64;
 
 import static szakdolgozat.ujkripto.server.UjkriptoServer.BLOCK_CHAIN_END_TOKEN;
 
-public class Sender {
+public class Sender implements SenderInterface{
     private IpsController ipsController = IpsController.getInstance();
     private String ipAddress;
     private int port = Integer.parseInt(PropertyLoader.load(Config.PATH).getProperty(Config.Properties.PORT));
